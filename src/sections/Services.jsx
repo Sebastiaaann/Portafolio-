@@ -9,9 +9,9 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const Services = () => {
-  const text = `Software de gestión de flotas que optimiza operaciones, 
-  reduce costos y mejora la seguridad vehicular mediante 
-  tecnología avanzada y análisis en tiempo real.`;
+  const text = `Desarrollador web especializado en crear soluciones web modernas,
+  escalables y eficientes, con experiencia en frontend, backend,
+  bases de datos y pruebas automatizadas.`;
   const serviceRefs = useRef([]);
   const isDesktop = useMediaQuery({ minWidth: "48rem" }); //768px
   useGSAP(() => {
@@ -30,10 +30,10 @@ const Services = () => {
     });
   }, []);
   return (
-    <section id="servicios" className="min-h-screen bg-black rounded-t-4xl ">
+    <section id="Perfil" className="min-h-screen bg-black rounded-t-4xl ">
       <AnimatedHeaderSection
-        subTitle={" Optimizacion - Control - Seguridad - Eficiencia"}
-        title={"Servicios"}
+        subTitle={" Frontend - Backend - Base de Datos - Testing"}
+        title={"Perfil"}
         text={text}
         textColor={"text-white"}
         withScrollTrigger={true}

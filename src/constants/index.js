@@ -1,58 +1,58 @@
 export const servicesData = [
     {
-        title: "Gestión de Flota 360°",
+        title: "Desarrollo Frontend (En formación)",
         description: 
-        "Control total de tus activos con monitoreo GPS en tiempo real y gestión centralizada de recursos.",
+        "Creación de interfaces web dinámicas y responsivas. En constante aprendizaje de buenas prácticas en React y diseño UI con CSS moderno.",
         items: [
             {
-                title: "Tracking Satelital",
-                description: "Visualización en vivo de vehículos mediante integración con Leaflet Maps."
+                title: "HTML5 & CSS3",
+                description: "Estructura semántica y diseño moderno (Flexbox/Grid)."
             },
             {
-                title: "Hoja de Vida Digital",
-                description: "Historial completo de conductores, licencias y asignaciones de vehículos."
+                title: "JavaScript",
+                description: "Manejo del DOM, funciones asíncronas y lógica de programación."
             },
             {
-                title: "Estado Operativo",
-                description: "Monitoreo de disponibilidad y estado mecánico de la flota."
+                title: "React.js",
+                description: "Aprendiendo el ciclo de vida de componentes, Hooks (useState, useEffect) y Props."
             },
         ]
     },
      {
-        title: "Inteligencia Artificial",
+        title: "Backend & Datos (Básico)",
         description: 
-        "Potenciado por Google Gemini para optimizar decisiones y automatizar procesos logísticos.",
+        "Comprensión de cómo se almacenan y consultan los datos detrás de las aplicaciones.",
         items: [
             {
-                title: "Cotizador Inteligente",
-                description: "Generación de presupuestos precisos analizando carga y distancia con IA."
+                title: "Consultas SQL y manejo de BDD",
+                description: "Consultas básicas, relaciones entre tablas y diseño de bases de datos simples."
             },
             {
-                title: "Rutas Optimizadas",
-                description: "Cálculo de trayectos eficientes considerando variables de tráfico y carga."
+                title: "Lógica de programación con Python",
+                description: "Principios básicos de programación estructurada y orientación a objetos."
             },
             {
-                title: "Asistente Virtual",
-                description: "Soporte operativo automatizado para la toma de decisiones."
+                title: "Consumo de APIs REST",
+                description: "Interés en aprender consumo de APIs REST y conexión con servidores."
             },
         ]
     },
      {
-        title: "Compliance y Finanzas",
+        title: "Herramientas & Colaboración",
         description: 
-        "Asegura el cumplimiento normativo y maximiza la rentabilidad del negocio.",
+        "Uso de estándares de la industria para trabajar en equipo y mantener código ordenado.",
         items: [
             {
-                title: "Alertas Legales",
-                description: "Notificaciones automáticas de vencimiento de revisiones y seguros."
+                title: "Git & GitHub",
+                description: "Control de versiones, manejo de repositorios y flujo de trabajo básico (commits, push, pull)."
             },
             {
-                title: "Control de Gastos",
-                description: "Auditoría de combustible y mantenimiento predictivo."
+                title: "Debugging y Testing básico",
+                description: "Uso de herramientas de desarrollo en navegadores y pruebas simples de funcionalidad."
             },
             {
-                title: "Reportes Financieros",
-                description: "Balance de ingresos y egresos con proyección de rentabilidad."
+                title: "Trabajo en equipo y proactividad",
+                description: "Comunicación efectiva, revisión de código y disposición para aprender nuevas tecnologías."
             },
         ]
     },
@@ -61,93 +61,64 @@ export const servicesData = [
 export const projects = [
     {
         id: 1,
-        name: "Dashboard Financiero",
-        description: "Resumen financiero integral que permite monitorear ingresos, egresos y rentabilidad de la flota en tiempo real.",
-        href: "/compliance",
-        image: "",
-        bgImage: "",
+        name: "Proyecto de Titulo",
+        description: "Aplicación clásica para gestión de tareas. Práctica de uso de Hooks (useState) y manipulación de arrays en tiempo real.",
+        href: "https://github.com/Sebastiaaann/Proyecto-de-Titulo", // Pon tu link real
+        image: "/assets/projects/ptitulo.png",
         frameworks: [
-            { id: 1, name: "Finanzas" },
-            { id: 2, name: "KPIs" },
-            { id: 3, name: "Reportes" },
-            { id: 4, name: "Tiempo Real" }
+            { id: 1, name: "React" },
+            { id: 2, name: "JavaScript" },
+            { id: 3, name: "CSS Modules" }
         ]
     },
     {
         id: 2,
-        name: "RoutePlanner AI",
-        description: "Sistema de planificación logística que utiliza IA para calcular las rutas más eficientes y estimar costos operativos en tiempo real.",
-        href: "/routes",
-        image: "",
+        name: "Proyecto E-Commerce Mockup",
+        description: "Prototipo inspirado en mi experiencia en cocina (Marriott). Permite ingresar insumos y calcular costos básicos (CRUD simple).",
+        href: "https://proyecto-e-commerce-swart.vercel.app/",
+        image: "/assets/projects/p-ecommerce.png",
         bgImage: "",
         frameworks: [
-            { id: 1, name: "IA" },
-            { id: 2, name: "Rutas" },
-            { id: 3, name: "Logística" },
-            { id: 4, name: "Eficiencia" }
+            { id: 1, name: "HTML/JS" },
+            { id: 2, name: "Local Storage" },
+            { id: 3, name: "Lógica" }
         ]
     },
     {
         id: 3,
-        name: "Gestion de Vehiculos",
-        description: "Gestion de vehiculos con historial completo.",
-        href: "/compliance",
-        image: "",
+        name: "Fletes-Don-Marcelo",
+        description: "Este sitio web. Diseñado desde cero para mostrar mis habilidades y practicar diseño responsivo.",
+        href: "https://fletesdonmarcelo.netlify.app/",
+        image: "/assets/projects/p-fletesmarcelo.png",
         bgImage: "",
         frameworks: [
-            { id: 1, name: "Flota" },
-            { id: 2, name: "Mantenimiento" },
-            { id: 3, name: "Historial" },
-            { id: 4, name: "Activos" }
+            { id: 1, name: "CSS Grid" },
+            { id: 2, name: "Diseño UI" },
+            { id: 3, name: "Responsive" }
         ]
     },
      {
         id: 4,
-        name: "Gestion de Conductores",
-        description: "Gestion de conductores con historial completo.",
-        href: "/compliance",
+        name: "Blog Personal",
+        description: "Boceto de aplicación para control de acceso, aplicando conocimientos de seguridad física y bases de datos.",
+        href: "https://algorithmlove.netlify.app/",
         image: "",
         bgImage: "",
         frameworks: [
-            { id: 1, name: "Personal" },
-            { id: 2, name: "Documentación" },
-            { id: 3, name: "Control" },
-            { id: 4, name: "RRHH" }
+            { id: 1, name: "SQL" },
+            { id: 2, name: "Diagramas ER" },
+            { id: 3, name: "Análisis" }
         ]
-    },
-    {
-        id: 5,
-        name: "Analisis de Rentabilidad",
-        description: "Inteligencia para evaluar la rentabilidad y optimizar recursos.",
-        href: "/compliance",
-        image: "",
-        bgImage: "",
-        frameworks: [
-            { id: 1, name: "Análisis" },
-            { id: 2, name: "Costos" },
-            { id: 3, name: "Márgenes" },
-            { id: 4, name: "Optimización" }
-        ]
-    },
-    
+    }
 ]
 
 export const socials = [
     {
-        name: "LinkedIn",
-        href: "https://www.linkedin.com/company/fleetmaster"
-    },
-    {
-        name: "Twitter",
-        href: "https://twitter.com/fleetmaster_app"
-    },
-    {
-        name: "Github",
-        href: "https://github.com/Sebastiaaann/FletesM"
+        name: "GitHub",
+        href: "https://github.com/Sebastiaaann"
     },
     {
         name: "Email",
-        href: "mailto:contacto@fleetmaster.cl"
+        href: "mailto:sebastian.almo9@gmail.com"
     }
 ]
-         

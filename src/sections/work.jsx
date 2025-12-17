@@ -10,9 +10,8 @@ const Works = () => {
   const previewRef = useRef(null);
 
   const [currentIndex, setCurrentIndex] = useState(null);
-  const text = `Módulos especializados que transforman
-    la gestión logística con tecnología
-    de vanguardia e impacto real.`;
+  const text = `Proyectos prácticos que demuestran mis habilidades en 
+  desarrollo web y mi proceso de aprendizaje continuo.`;
 
   const mouse = useRef({ x: 0, y: 0 });
   const moveX = useRef(null);
@@ -99,11 +98,17 @@ const Works = () => {
     moveY.current(mouse.current.y);
   };
 
+  const handleProjectClick = (href) => {
+    if (href && href !== "#") {
+      window.open(href, "_blank", "noopener,noreferrer");
+    }
+  };
+
   return (
-    <section id="soluciones" className="flex flex-col min-h-screen">
+    <section id="Proyectos" className="flex flex-col min-h-screen">
       <AnimatedHeaderSection
-        subTitle={"Inteligencia aplicada, eficiencia comprobada"}
-        title={"Soluciones"}
+        subTitle={"Aprendizaje práctico, proyectos reales"}
+        title={"Proyectos"}
         text={text}
         textColor={"text-black"}
         withScrollTrigger={true}
@@ -119,6 +124,7 @@ const Works = () => {
             className="relative flex flex-col gap-1 py-5 cursor-pointer group md:gap-0"
             onMouseEnter={() => handleMouseEnter(index)}
             onMouseLeave={() => handleMouseLeave(index)}
+            onClick={() => handleProjectClick(project.href)}
           >
             {/* overlay */}
             <div
@@ -159,6 +165,7 @@ const Works = () => {
                 src={project.image}
                 alt={`${project.name}-image`}
                 className="absolute bg-center px-14 rounded-xl"
+                href={project.href}
               />
             </div>
           </div>
@@ -173,6 +180,7 @@ const Works = () => {
               src={projects[currentIndex].image}
               alt="preview"
               className="object-cover w-full h-full"
+              href={project.href}
             />
           )}
         </div>

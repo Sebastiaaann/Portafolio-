@@ -34,30 +34,30 @@ const ServiceSummary = () => {
     });
   });
   return (
-        <section className="mt-20 overflow-hidden font-light leading-snug text-center mb-42 contact-text-responsive">
+    <section className="mt-20 overflow-hidden font-light leading-snug text-center mb-42 contact-text-responsive">
       <div id="title-service-1">
-        <p>Logística</p>
+        <p>Programación</p>
       </div>
       <div
         id="title-service-2"
         className="flex items-center justify-center gap-3 translate-x-16"
       >
-        <p className="font-normal">Inteligencia</p>
+        <p className="font-normal">Frontend</p>
         <div className="w-10 h-1 md:w-32 bg-gold" />
-        <p>Eficiencia</p>
+        <p>Backend</p>
       </div>
       <div
         id="title-service-3"
         className="flex items-center justify-center gap-3 -translate-x-48"
       >
-        <p>Rutas</p>
+        <p>React</p>
         <div className="w-10 h-1 md:w-32 bg-gold" />
-        <p className="italic">Control</p>
+        <p className="italic">SQL</p>
         <div className="w-10 h-1 md:w-32 bg-gold" />
-        <p>Seguridad</p>
+        <p>Python</p>
       </div>
       <div id="title-service-4" className="translate-x-48">
-        <p>Rentabilidad</p>
+        <p>Interfaz Web</p>
       </div>
     </section>
   );

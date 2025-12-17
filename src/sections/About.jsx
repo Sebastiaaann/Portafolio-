@@ -5,15 +5,14 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const About = () => {
-  const text = `Innovación en cada kilómetro
-    construimos soluciones logísticas inteligentes
-    desde la planificación hasta la entrega final`;
-  const aboutText = `Obsesionados con optimizar cada ruta y reducir costos operativos—desde interfaces intuitivas hasta sistemas de IA que predicen el futuro de tu flota. Cada línea de código es una promesa: eficiencia que tus clientes sienten.
-  Nuestra misión:
-🚛 Digitalizar la logística latinoamericana (un camión a la vez)
-📊 Democratizar el acceso a herramientas empresariales de clase mundial
-🌍 Reducir la huella de carbono con rutas optimizadas por IA
-⚡ Hacer que gestionar una flota sea tan simple como pedir un Uber`;
+  const text = `Con ganas de seguir construyendo experiencias de webs modernas
+    motivacion para aprender y crecer en el área tecnológica.`;
+  const aboutText = `Egresado de Ingeniería Informática con especialización en Front-end (React) y competencias sólidas en Backend y Análisis de Datos. Combino mi formación técnica con una fuerte ética de trabajo, responsabilidad y motivación para seguir desarrollándome dentro de la industria tecnológica.
+  Mis habilidades:
+💻 Frontend: HTML, CSS, JavaScript, React
+⚙️ Backend: Python, Django, SQL
+📈 Herramientas: Git, GitHub, Power BI
+🚀 En constante aprendizaje sobre testing y debugging`;
   const imgRef = useRef(null);
   useGSAP(() => {
     gsap.to("#about", {
@@ -39,10 +38,10 @@ const About = () => {
     });
   });
   return (
-    <section id="acerca" className="min-h-screen bg-black rounded-b-4xl">
+    <section id="Sobre mí" className="min-h-screen bg-black rounded-b-4xl">
       <AnimatedHeaderSection
-        subTitle={"Logística inteligente, resultados reales"}
-        title={"Nosotros"}
+        subTitle={"Desarrollador Junior | Próximo a práctica profesional"}
+        title={"Sobre mí"}
         text={text}
         textColor={"text-white"}
         withScrollTrigger={true}
@@ -51,7 +50,7 @@ const About = () => {
         <img
           ref={imgRef}
           src="/assets/logos/logoFTSR.svg"
-          alt="FleetMaster logo"
+          alt="Developer profile"
           className="w-md rounded-3xl"
         />
         <AnimatedTextLine text={aboutText} className={"w-full"} />
