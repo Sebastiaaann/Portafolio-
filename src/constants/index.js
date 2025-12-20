@@ -1,8 +1,8 @@
 export const servicesData = [
     {
         title: "Desarrollo Frontend (En formación)",
-        description: 
-        "Creación de interfaces web dinámicas y responsivas. En constante aprendizaje de buenas prácticas en React y diseño UI con CSS moderno.",
+        description:
+            "Creación de interfaces web dinámicas y responsivas. En constante aprendizaje de buenas prácticas en React y diseño UI con CSS moderno.",
         items: [
             {
                 title: "HTML5 & CSS3",
@@ -18,10 +18,10 @@ export const servicesData = [
             },
         ]
     },
-     {
+    {
         title: "Backend & Datos (Básico)",
-        description: 
-        "Comprensión de cómo se almacenan y consultan los datos detrás de las aplicaciones.",
+        description:
+            "Comprensión de cómo se almacenan y consultan los datos detrás de las aplicaciones.",
         items: [
             {
                 title: "Consultas SQL y manejo de BDD",
@@ -37,10 +37,10 @@ export const servicesData = [
             },
         ]
     },
-     {
+    {
         title: "Herramientas & Colaboración",
-        description: 
-        "Uso de estándares de la industria para trabajar en equipo y mantener código ordenado.",
+        description:
+            "Uso de estándares de la industria para trabajar en equipo y mantener código ordenado.",
         items: [
             {
                 title: "Git & GitHub",
@@ -63,7 +63,7 @@ export const projects = [
         id: 1,
         name: "Proyecto de Titulo",
         description: "Aplicación clásica para gestión de tareas. Práctica de uso de Hooks (useState) y manipulación de arrays en tiempo real.",
-        href: "https://github.com/Sebastiaaann/Proyecto-de-Titulo", // Pon tu link real
+        href: "https://fletes-m.vercel.app/",
         image: "/assets/projects/ptitulo.png",
         frameworks: [
             { id: 1, name: "React" },
@@ -79,9 +79,9 @@ export const projects = [
         image: "/assets/projects/p-ecommerce.png",
         bgImage: "",
         frameworks: [
-            { id: 1, name: "HTML/JS" },
-            { id: 2, name: "Local Storage" },
-            { id: 3, name: "Lógica" }
+            { id: 1, name: "React" },
+            { id: 2, name: "JavaScript" },
+            { id: 3, name: "Tailwind CSS" }
         ]
     },
     {
@@ -92,12 +92,12 @@ export const projects = [
         image: "/assets/projects/p-fletesmarcelo.png",
         bgImage: "",
         frameworks: [
-            { id: 1, name: "CSS Grid" },
-            { id: 2, name: "Diseño UI" },
-            { id: 3, name: "Responsive" }
+            { id: 1, name: "Astro" },
+            { id: 2, name: "JavaScript" },
+            { id: 3, name: "Tailwind CSS" }
         ]
     },
-     {
+    {
         id: 4,
         name: "Blog Personal",
         description: "Boceto de aplicación para control de acceso, aplicando conocimientos de seguridad física y bases de datos.",
@@ -105,9 +105,9 @@ export const projects = [
         image: "",
         bgImage: "",
         frameworks: [
-            { id: 1, name: "SQL" },
-            { id: 2, name: "Diagramas ER" },
-            { id: 3, name: "Análisis" }
+            { id: 1, name: "Astro" },
+            { id: 2, name: "JavaScript" },
+            { id: 3, name: "Tailwind CSS" }
         ]
     }
 ]
